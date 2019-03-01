@@ -1,4 +1,4 @@
-# Unsplash-Random-Wallpaper
+# unsplash-random-wallpaper
 Sets a random Unsplash image as background using Sindresorhus's wallpaper cli
 
 # Installation
