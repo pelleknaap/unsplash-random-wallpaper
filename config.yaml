@@ -1,5 +1,5 @@
 featured: true
 query: "nature"
 
-#only valid values are "landscape", "portrait", and "squarish"
+# Valid values are "landscape", "portrait", and "squarish"
 orientation: "landscape"
