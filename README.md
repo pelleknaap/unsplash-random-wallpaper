@@ -7,9 +7,9 @@ Download ```main.go``` & ```config.yml```
 Install [Sindresorhus's wallpaper cli](https://github.com/sindresorhus/wallpaper-cli) with the following command 
 ```$ npm install --global wallpaper-cli```
 
-Create a developer account on Unsplash
-Create a new application
-Set the access key of your application as an environment variable, name it ```ACCESS_KEY_UNSPLASH```
+Create a developer account on Unsplash.  
+Create a new application.  
+Set the access key of your application as an environment variable, name it ```ACCESS_KEY_UNSPLASH```.
 
 OPTIONAL: Set the ``configPath`` variable if you want use the executable outside of the working directory.
 
