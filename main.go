@@ -30,9 +30,12 @@ type unsplashJSON []struct {
 }
 
 func main() {
+	configPath := `D:\pelle\Documents\Go workspace\go\src\github.com\pelleknaap\background changer unsplash`
+
 	viper.SetConfigType("yaml")
 	viper.SetConfigName("config") // name of config file (without extension)
-	viper.AddConfigPath(`D:\pelle\Documents\Go workspace\go\src\github.com\pelleknaap\background changer unsplash`)
+	viper.AddConfigPath(".")
+	viper.AddConfigPath(configPath)
 	err := viper.ReadInConfig() // Find and read the config file
 	if err != nil { // Handle errors reading the config file
 		fmt.Printf("Fatal error config file: \n%s", err)
