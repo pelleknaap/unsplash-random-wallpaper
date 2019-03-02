@@ -18,3 +18,6 @@ Execute ```main.go```
 
 You can also build it and run it as an executable.
 If you want to execute the script on startup, you can follow this guide for [Windows](https://www.howtogeek.com/208224/how-to-add-programs-files-and-folders-to-system-startup-in-windows-8.1/).
+
+# To do
+1. Making the code to set a new wallpaper myself, using a CLI isn't the best solution.
